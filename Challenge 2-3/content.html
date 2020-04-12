@@ -4,6 +4,8 @@
 <head>
 
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>
         Content
     </title>
@@ -26,70 +28,77 @@
 
     
     <section class="cards">
-        <div class="card">
-            <div class="card a">
+        <div class="card" id="starter">
+            <div class="cardImg">
                 <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="">
             </div>
             <div class="card__content">
                 <p>
-                    aa
+                    Basic courses on Javascript, Node and React!
                 </p>
             </div>
             <div class="card__info">
                 <p>
-                    bb
-                </p>
-                <p class="card__prices">
-                    50
-                </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card a">
-                <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="">
-            </div>
-            <div class="card__content">
-                <p>
-                    aa
-                </p>
-            </div>
-            <div class="card__info">
-                <p>
-                    bb
+                    15 modules
                 </p>
                 <p class="card__prices">
                     Free
                 </p>
             </div>
         </div>
-        <div class="card">
-            <div class="card a">
-                <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="">
+        <div class="card" id="launchbase">
+            <div class="cardImg">
+                <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="">
             </div>
             <div class="card__content">
                 <p>
-                    aa
+                    For beginners, front and backend using HTML, CSS and Javascript.
                 </p>
             </div>
             <div class="card__info">
                 <p>
-                    bb
+                    30 modules
                 </p>
                 <p class="card__prices">
-                    60
+                    Paid
+                </p>
+            </div>
+        </div>
+        <div class="card" id="gostack">
+            <div class="cardImg">
+                <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="">
+            </div>
+            <div class="card__content">
+                <p>
+                    Learn everything about the Omnistack!
+                </p>
+            </div>
+            <div class="card__info">
+                <p>
+                    40 modules
+                </p>
+                <p class="card__prices">
+                    Paid
                 </p>
             </div>
         </div>
     </section>
     
-    <div class="modal-overlay">
-       
+    <div class="modal-overlay"> 
         <div class="modal">
-                
+            <a class="maximize-modal">
+                <i class="material-icons">launch</i>
+            </a>
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+            <div class="modal-content">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
         </div>
     </div>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
